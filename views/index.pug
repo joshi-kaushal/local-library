@@ -1,8 +1,9 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #[em LocalLibrary], a very basic Express website developed as a tutorial example on the Mozilla Developer Network.
+  h1.text-uppercase.text-center= title
+  div.container-fluid.bg-secondary.border.rounded
+    h4.text-center: error This app is developed as a part of #[a(href='https://www.theodinproject.com/home') #[strong The Odin Project]] with the help of #[a(href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs') #[strong MDN'S Express tutorials.]]
 
   h1 Dynamic content
 
